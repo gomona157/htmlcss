@@ -1,8 +1,12 @@
-body{
-    background-color: cadetblue;
-    color:rgb(28, 28, 118);
-
-}
-div{
-    color:rgb(6, 52, 135)
-}
+.flex-container {
+    display: flex;
+    background-color: rgb(26, 78, 104);
+    flex-direction: column ;
+  }
+  
+  .flex-container > div {
+    background-color: #b3afaf;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
